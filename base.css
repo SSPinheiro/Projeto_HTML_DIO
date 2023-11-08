@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    padding: 10px 20px 0px;
+}
+.header {
+    min-height: 75px;
+}
+.content {
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    min-height: 150px;
+}
